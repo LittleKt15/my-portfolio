@@ -1,0 +1,274 @@
+:root {
+    --bs-blue: #1e30f3;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #e21e80;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #1e30f3;
+    --bs-secondary: #e21e80;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+}
+
+/* Navbar */
+#navbar img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+#navbar a{
+    color: var(--bs-primary);
+    font-weight: bold;
+}
+#navbar ul li a {
+    color: var(--bs-gray-dark);
+    font-weight: 500px;
+}
+
+/* Header */
+#header p span{
+    /* color: linear-gradient(to left, var(--bs-primary), var(--bs-indigo)); */
+    color: var(--bs-indigo);
+}
+#header .btn{
+    width: 170px;
+    padding: 12px 28px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+#header .btn:hover{
+    background: linear-gradient(to left, var(--bs-indigo), var(--bs-pink));
+    color: var(--bs-white);
+}
+
+
+/* About */
+#about h1{
+    color: var(--bs-indigo);
+}
+#about img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+#about img:hover{
+    border-radius: 250px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--bs-indigo);
+}
+#about .font{
+    transition: 0.5s;
+}
+#about .font:hover{
+    font-family: monospace;
+}
+.overlay{
+    background: linear-gradient(to left, var(--bs-primary), var(--bs-indigo), var(--bs-pink), var(--bs-purple));
+}
+
+/* Education */
+#education h1{
+    color: var(--bs-indigo);
+}
+#education h3{
+    color: var(--bs-primary);
+}
+#education .card-all{
+    background: var(--bs-light);
+    border-radius: 10%;
+    transition: 0.5s;
+}
+#education .card-all:hover{
+    background: var(--bs-warning);
+    scale: 1.05;
+}
+
+/* Skill */
+#skill h1{
+    color: var(--bs-indigo);
+}
+.error{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.error:hover{
+    background: #3b1f2b;
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.problem{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.problem:hover{
+    background: #FFDB58;
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.time{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.time:hover{
+    background: #6F4E37;
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.html{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.html:hover{
+    background: var(--bs-gray-900);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.css{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.css:hover{
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.bootstrap{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.bootstrap:hover{
+    background: rgb(49, 28, 63);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.js{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.js:hover{
+    background: yellowgreen;
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.php{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.php:hover{
+    background: rgb(246, 119, 246);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.laravel{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.laravel:hover{
+    background: rgb(247, 168, 8);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.java{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.java:hover{
+    background: rgb(230, 174, 106);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+.mysql{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.mysql:hover{
+    background: rgb(81, 214, 81);
+    color: var(--bs-white);
+    scale: 1.05;
+}
+
+
+/* Service */
+#service h1{
+    color: var(--bs-indigo);
+}
+#service h3{
+    color: var(--bs-primary);
+}
+#service img{
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+}
+#service .font{
+    transition: 0.3s;
+}
+#service .font:hover{
+    font-family: monospace;
+}
+#service .scale{
+    transition: 0.5s;
+}
+#service .scale:hover{
+    scale: 1.1;
+}
+
+
+/* Contact */
+#contact h1{
+    color: var(--bs-indigo);
+}
+#contact h2{
+    color: var(--bs-purple);
+}
+#contact h3{
+    color: var(--bs-purple);
+}
+
+/* Footer */
+#footer{
+    background: linear-gradient(to left, var(--bs-primary), var(--bs-indigo), var(--bs-info));
+}
+
+.up-arrow{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: var(--bs-indigo);
+    font-size: 0.8rem;
+    color: var(--bs-white);
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
