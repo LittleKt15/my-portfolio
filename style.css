@@ -81,7 +81,7 @@ body{
 }
 .overlay{
     /* background: linear-gradient(to left, var(--bs-primary), var(--bs-indigo), var(--bs-pink), var(--bs-purple)); */
-    background: skyblue;
+    background: var(--bs-indigo);
 }
 
 /* Education */
@@ -258,7 +258,7 @@ body{
 /* Footer */
 #footer{
     /* background: linear-gradient(to left, var(--bs-primary), var(--bs-indigo), var(--bs-pink), var(--bs-purple)); */
-    background: skyblue;
+    background: var(--bs-indigo);
 }
 
 .up-arrow{
