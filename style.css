@@ -263,10 +263,10 @@ body{
 
 .up-arrow{
     display: block;
-    width: 35px;
-    height: 35px;
-    background: var(--bs-indigo);
-    font-size: 0.8rem;
+    width: 38px;
+    height: 38px;
+    background: var(--bs-dark);
+    font-size: 1.1rem;
     color: var(--bs-white);
     position: fixed;
     bottom: 5px;
