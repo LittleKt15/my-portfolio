@@ -204,6 +204,24 @@ body{
     color: var(--bs-white);
     scale: 1.05;
 }
+.vs-code{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.vs-code:hover{
+    background: rgb(63, 63, 172);
+    color: #fff;
+    scale: 1.05;
+}
+.postman{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.postman:hover{
+    background: orange;
+    color: #fff;
+    scale: 1.05;
+}
 
 
 /* Service */
