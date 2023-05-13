@@ -82,6 +82,7 @@ body{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 150px;
 }
 .overlay{
     /* background: linear-gradient(to left, var(--bs-primary), var(--bs-indigo), var(--bs-pink), var(--bs-purple)); */
