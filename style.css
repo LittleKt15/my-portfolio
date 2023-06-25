@@ -137,6 +137,15 @@ body{
     color: var(--bs-white);
     scale: 1.05;
 }
+.agile{
+    background: var(--bs-light);
+    transition: 0.3s ease-in-out;
+}
+.agile:hover{
+    background: #6F4E37;
+    color: var(--bs-white);
+    scale: 1.05;
+}
 .html{
     background: var(--bs-light);
     transition: 0.3s ease-in-out;
